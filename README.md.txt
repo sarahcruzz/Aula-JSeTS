@@ -1,1 +1,0 @@
-aula de javascript e typescript :")
