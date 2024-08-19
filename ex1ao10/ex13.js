@@ -1,1 +1,0 @@
-let valorMaquina, horas = 8, dias = 25, custoEnergia = 0.75
