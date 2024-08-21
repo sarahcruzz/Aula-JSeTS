@@ -6,9 +6,9 @@ const rl = readline.create.Interface({
 });
 
 // pergunta o primeiro valor 
-rl.question('Digite o primeiro valor: ', (valor1) ==> {
+rl.question('Digite o primeiro valor: ', (valor1) => {
     // pergunta o segundo valor 
-    rl.question('Digite o segundo valor: ', (valor2) ==> {
+    rl.question('Digite o segundo valor: ', (valor2) => {
         // exibe os vaores digitados
         console.log('Primeiro valor: ', valor1);
         console.log('Segundo valor:', valor2);

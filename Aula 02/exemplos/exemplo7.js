@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 });
 
 // pergunta ao usuário 
-rl.question('Digite algo: ', (answer) ==> {
+rl.question('Digite algo: ', (answer) => {
    
     // resposta do usuário
     console.log (`Você digitou: ${answer}`)
