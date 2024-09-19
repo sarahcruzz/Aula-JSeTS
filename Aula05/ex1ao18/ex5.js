@@ -1,13 +1,8 @@
-class Livro{
-    constructor(titulo, autor, anoPublicacao, genero) {
-        this.titulo = titulo;
-        this.autor = autor;
-        this.anoPublicacao = anoPublicacao;
-        this.genero = genero;
-    }
+const livro = {}
 
-}
+livro.titulo = "A menina feita de espinhos"
+livro.autor = "Fabiane Ribeiro"
+livro.anoPublicacao = 2020
+livro.genero = "Romance"
 
-novo_livro = new Livro('a menina feita de espinhos', 'ferrnanda monteiro', 2016, 'drama', )
-
-console.log(novo_livro)
+console.log(livro)

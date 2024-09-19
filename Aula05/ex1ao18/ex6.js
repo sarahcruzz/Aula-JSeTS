@@ -7,7 +7,7 @@ const livro = {
     "gênero": 'Romance',
     "idadePublicacao": anoAtual - 1899
 
-};
+}
 
-const mostrarDetalhes = `Título:`
+const mostrarDetalhes = livro
 console.log(mostrarDetalhes)
