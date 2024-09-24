@@ -5,13 +5,11 @@ const pessoa = {
     email: "profbanner@email.com",
     telefone: "+552877776666",
     cidade: "Cachoeiro de Itapemirim",
-    estado: "ES"
+    estado: "ES",
+    seguroSocial: "1234-567-9",
+    cpf: "12345678910"
 }
 
-pessoa.seguroSocial = "1234-567-9"
-pessoa.cpf = "12345678910"
-
-pessoa["cpf"].substring(0,4) + '*******'
-pessoa["carteiraIdentidade"].substring(0,4) + '******'
+console.log(pessoa.cpf.substring(0,4) + "*******")
+console.log(pessoa.carteiraIdentidade.substring(0,4) + "****")
    
-console.log(pessoa)
